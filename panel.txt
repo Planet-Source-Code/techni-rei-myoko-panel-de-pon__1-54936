@@ -1,0 +1,78 @@
+This game is based off of Tetris Attack/Panel de Pon/Pokémon Puzzle which I am extremely addicted to
+
+The original game had 6 colors, but I have a partially color blind friend who cant tell the difference between shades (Blue and Purple for example) so only Primaries and Black could be used.
+
+Due to the success of my iPod's multitasking games (and failure of it's puzzle game), I decided to take a crack (pun, as the game is commonly referred to as Pokécrack due to its addictiveness) at Panel de Pon again.
+
+Dafhi has now become a code contributor, which indicates he loves my program as much as I do :)|Chains now register
+
+I stupidly put gridwidth (instead of gridheight) in a function to check for height (fixed it)
+
+Random blocks seem to disappear|To move the cursor (All modes):
+	Move the mouse, Arrow keys, Number pad
+
+To move the board up faster (Marathon and Line mode):
+	Page Up, Page Down, Tab, Shift, Caps Lock, +, Zero, Alt
+
+To edit a tile (Edit mode) or to switch two tiles (Game modes):
+	Space, Enter, Return
+
+To undo a move (Puzzle mode):
+	Z, U, Delete, Backspace|To start a game mode, select a mode from the File menu.
+Puzzle mode lets you load, edit, create, save and play custom puzzles.
+Pause (obviously) pauses the game. The screen is also cleared so you cant use it to cheat.
+
+When you switch two tiles, if their new locations result in 3 or more tiles in a row/column of a single color, they will vanish. If they are over an empty tile they will fall down.
+
+The 'Maximum moves:' option lets you change (in edit mode only) how many moves a user can make in puzzle mode.
+The 'Pixel increment:' option changes how far up the board moves every so often.
+The 'Time:' options changes how often the board moves up.
+
+The greyed out/darkened row is unselectable/unusable till it is entirely visible
+
+Online play is currently in the beta stage. To connect to a host you must set your remote port to the same as the hosts local port, then connect to the host's IP. To host a game you must set your local port and click Listen
+
+To play against the AI, click Artificial Intelligence in the multiplayer menu, then select an appropriate game mode (not custom puzzle) The AI's speed and skill level can be set in options|System:
+	Name (Territory) [Theme] a star here idicates I own it
+
+SNES:
+	Panel de Pon (JAPAN) [Fairies]
+	Tetris Attack (US) [Yoshi's Island]
+		The original game had a very girly fairy theme. Knowing no male would buy the fairy motif, Nintendo redid the sprites with characters from Yoshi's Island 2. The name was also changed cause American already have an association with Tetris and Nintendo wanted to milk off of it.
+
+Gameboy:
+	Yoshi no Panepon (JAPAN) [Yoshi's Island]
+	Tetris Attack (US) [Yoshi's Island]
+		Rather than rework the sprites later, Nintendo just stuck with the Yoshi theme.
+
+N64:
+	Pokémon no Panepon (JAPAN) [Pokémon]
+	Pokémon Puzzle League (US) [Pokémon] *
+		Nintendo loves milking its franchises, thus it was changed to Pokémon. A 3D mode was added.
+
+Gameboy Color:
+	Pokémon no Panepon (JAPAN) [Pokémon]
+	Pokémon Puzzle Challenge (US) [Pokémon] *
+		A gameboy version of the N64 game without the 3D mode.
+
+Gamecube:
+	Nintendo Puzzle Collection (JAPAN) [Fairies] *
+		One of three games on the disc. Includes the N64 version with the original fairy theme, and a GBA multiboot rom.
+		Also included the N64 and NES version of Dr. Mario, a new and NES version of Yoshi's Cookie.
+
+DOS:
+	Unnamed (My computer) [None] *
+		I originally made this for Alice Pascal years ago. It was the first program I ever made to use dirty rectangle. It was also never completed. (I only recently solved its problem)
+
+Windows:
+	Panel de Pon (Global) [None, yet] *
+		The program you see before you. I'll add a theme later.|Marathon:	The object of this mode is to prevent the tiles from reaching the top.
+Line:		The object of this mode is to clear a certain number of lines.
+Puzzle:		The object of this mode is to clear all the tiles in a certain number of moves.
+Edit:		Use this mode to create a custom puzzle for Puzzle mode.
+
+In edit mode, clicking a tile will change it's color.
+In all other modes, clicking a tile will switch it with the one next to it.
+When you line up 3 or more tiles of 1 color, they will vanish.
+The board will slowly move upwards.
+The row of tiles on the bottom are unusable while they are darkened.
